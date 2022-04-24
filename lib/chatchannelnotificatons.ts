@@ -14,7 +14,7 @@ export interface ChatChannelNotificationsCdkProps {
   kmsAlias: string
 }
 
-export class ChatChannelNotificationsCdk extends Construct {
+export class ChatChannelNotificationsService extends Construct {
   constructor(scope: Construct, id: string, props: ChatChannelNotificationsCdkProps) {
     super(scope, id)
     // SNS Topic for your service role to publish messages too.
