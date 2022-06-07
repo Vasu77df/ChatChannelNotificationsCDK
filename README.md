@@ -1,3 +1,4 @@
+# Work in Progress
 # Welcome to your CDK TypeScript Construct Library project
 
 You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`ChatChannelNotificationsCdk`)
