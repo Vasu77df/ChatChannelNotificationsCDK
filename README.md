@@ -1,8 +1,7 @@
-# Work in Progress
-# Welcome to your CDK TypeScript Construct Library project
+# Welcome to your CDK TypeScript Construct Library project for sending notifcations via Slack Webhooks
 
 You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`ChatChannelNotificationsCdk`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+which contains a lambda that subscribes to SNS topic that processes the message and send an update to a slack webhook 
 
 The construct defines an interface (`ChatChannelNotificationsCdkProps`) to configure the visibility timeout of the queue.
 
